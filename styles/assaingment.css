@@ -193,3 +193,56 @@ main{
     font-size: 12px;
   }
 
+   /* contact part */
+
+.contact{
+    margin-top: 116px;
+}
+
+
+  .contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+  }
+
+  .cantact-title{
+    font-size: 97px;
+    font-weight: bold;
+  }
+
+
+  .sub-text{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+  }
+
+  input[type="email"]{
+    height: 50px;
+    width: 450px;
+    border-radius: 8px;
+    padding: 20px 0 20px 32px;
+    color: gray;
+    margin: 0 0 0 0;
+  }
+
+  textarea{
+    height: 100px;
+    width: 450px;
+    border-radius: 8px;
+    padding: 20px 0 20px 32px;
+    color: gray;
+  
+  }
+
+  .second-btn{
+    width: 488px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .second-btn:hover{
+    width: 500px;
+  }
+
