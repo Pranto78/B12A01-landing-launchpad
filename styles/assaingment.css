@@ -60,3 +60,33 @@ nav ul li{
     height: 580px;
   
 }
+
+/* action part */
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #111113;
+}
+
+.action-description{
+    font-size: 24px;
+    color: #817d75;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.action{
+    
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.image{
+    max-width: 403px;
+    border-radius: 15px;
