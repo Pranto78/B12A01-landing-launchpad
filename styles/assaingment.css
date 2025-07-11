@@ -1,5 +1,8 @@
 /* header part */
 
+body{
+    background-color: #ebeefd  ;
+}
 
 .inter-normal {
     font-family: "Inter", sans-serif;
@@ -58,6 +61,11 @@ nav ul li{
 .bg-image{
     background-image: url('../Assets/Hero-bg.png');
     height: 580px;
+    margin: 0 0 0 0;
+    background-size: cover;
+    
+    
+    
   
 }
 
@@ -243,6 +251,65 @@ main{
   }
 
   .second-btn:hover{
-    width: 500px;
+    width: 490px;
   }
 
+/* footer section */
+
+.footer {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #fff;
+    color: #777;
+    
+  }
+  
+  .logo {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF; 
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 15px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #888;
+    line-height: 1.5;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #777;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #4E47FF;
+  }
+
+
+  .line{
+    margin-top: 116px;
+    color: #4E47FF;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color:#4E47FF;
+    margin: 0;
+    width: 100%;
+  }
+  
+  
